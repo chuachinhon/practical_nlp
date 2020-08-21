@@ -2,6 +2,16 @@
 
 This series of notebooks is aimed at helping fellow NLP enthusiasts think about applying new tools and techniques to practical tasks. My goal is to keep the code and work flow simple, and focus on an actual use case.
 
+# PART 4: Batch Machine Translation with Hugging Face and MarianMT
+![](https://cdn-images-1.medium.com/max/1600/1*hYerl3LtK-hgDxqeYgmr5A.jpeg)
+Machine translation doesn't generate as much excitement as other emerging areas in NLP, but recent advances have opened up interesting new possibilities in this space. Over three short notebooks, I'll demo a simple workflow for using Hugging Face's version of MarianMT to:
+- [translate 3 English speeches of varying lengths to Chinese](https://github.com/chuachinhon/practical_nlp/blob/master/notebooks/4.0_english_to_chinese_translate.ipynb)
+- [translate 5 English news stories on Covid-19 (under 500 words) to Chinese](https://github.com/chuachinhon/practical_nlp/blob/master/notebooks/4.1_english_to_chinese_news.ipynb)
+- [translate 3 Chinese speeches to English](https://github.com/chuachinhon/practical_nlp/blob/master/notebooks/4.2_chinese_to_english_translate.ipynb)
+
+Results from neural machine translation models are not (yet) as artful or precise as those by a skilled human translator. But they get 60% or more of the job done, in my view. Depending on your use case, that could be a huge time saver.
+
+
 # PART 3: Beginner's Guide To Building A Singlish AI Chatbot 
 ![](https://miro.medium.com/max/2000/1*dStowlpqDyRipF3JIvVV0Q.jpeg)
 AI text generation is one of the most exciting fields in NLP, but also a daunting one for beginners. These 4 notebooks aim to speed up the learning process for newcomers by combining and adapting various existing tutorials into  a practical end-to-end walkthrough with notebooks and sample data for a conversational chatbot that can be used in an interactive app.

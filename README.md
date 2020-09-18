@@ -2,6 +2,13 @@
 
 This series of notebooks is aimed at helping fellow NLP enthusiasts think about applying new tools and techniques to practical tasks. My goal is to keep the code and work flow simple, and focus on an actual use case.
 
+# PART 5: Fine Tune Transformer Model On Custom Dataset
+
+[Notebook5.0](https://github.com/chuachinhon/practical_nlp/blob/master/notebooks/5.0_finetune_distilbert_colab_cch.ipynb) is an adaptation of my [new repo](https://github.com/chuachinhon/transformers_state_trolls_cch) on using transformer models to detect state trolls on Twitter. I reckon many may not be interested in the subject matter, so I only ported over the Colab notebook for fine tuning with custom dataset for folks who are specifically looking for examples like this.
+
+This notebook took about 5.5 hours to run on a Colab Pro account on TPU and "high-RAM" settings. It could go slower or faster depending on your set-up. The datasets needed - train_raw.csv and validate.csv - are in the [data folder](https://github.com/chuachinhon/practical_nlp/tree/master/data) of this repo.
+
+
 # PART 4: Batch Machine Translation with Hugging Face and MarianMT
 ![](https://miro.medium.com/max/1400/1*hYerl3LtK-hgDxqeYgmr5A.jpeg)
 Machine translation doesn't generate as much excitement as other emerging areas in NLP, but recent advances have opened up interesting new possibilities in this space. Over three short notebooks, I'll demo a simple workflow for using Hugging Face's version of MarianMT to:

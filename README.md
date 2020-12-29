@@ -1,6 +1,6 @@
 #  Practical NLP 
 
-This series of notebooks is aimed at helping fellow NLP enthusiasts think about applying new tools and techniques to practical tasks. My goal is to keep the code and work flow simple, and focus on an actual use case.
+This series of notebooks is aimed at helping fellow NLP enthusiasts think about applying new tools and techniques to practical tasks. My goal is to keep the code and work flow simple, and focus on actual use cases.
 
 # PART 5: Fine Tune Transformer Model On Custom Dataset
 
@@ -9,12 +9,26 @@ This series of notebooks is aimed at helping fellow NLP enthusiasts think about 
 This notebook took about 5.5 hours to run on a Colab Pro account on TPU and "high-RAM" settings. It could go slower or faster depending on your set-up. The datasets needed - train_raw.csv and validate.csv - are in the [data folder](https://github.com/chuachinhon/practical_nlp/tree/master/data) of this repo.
 
 
-# PART 4: Batch Machine Translation with Hugging Face and MarianMT
+# PART 4: Batch Machine Translation with Hugging Face+MarianMT and FB/Fairseq
 ![](https://miro.medium.com/max/1400/1*hYerl3LtK-hgDxqeYgmr5A.jpeg)
-Machine translation doesn't generate as much excitement as other emerging areas in NLP, but recent advances have opened up interesting new possibilities in this space. Over three short notebooks, I'll demo a simple workflow for using Hugging Face's version of MarianMT to:
+Machine translation doesn't generate as much excitement as other emerging areas in NLP, but recent advances have opened up interesting new possibilities in this space. Over 5 short notebooks, I'll demo a simple workflow for using Hugging Face's version of MarianMT, as well as Facebook's Fairseq toolkit for translation. 
+
+The HF-MMT demos cover:
 - [translate 3 English speeches of varying lengths to Chinese](https://github.com/chuachinhon/practical_nlp/blob/master/notebooks/4.0_english_to_chinese_translate.ipynb)
 - [translate 5 English news stories on Covid-19 (under 500 words) to Chinese](https://github.com/chuachinhon/practical_nlp/blob/master/notebooks/4.1_english_to_chinese_news.ipynb)
 - [translate 3 Chinese speeches to English](https://github.com/chuachinhon/practical_nlp/blob/master/notebooks/4.2_chinese_to_english_translate.ipynb)
+
+
+The FB-Fairseq demos cover (Added Dec 29 2020):
+- [translate 3 English speeches of varying lengths to Tamil](https://github.com/chuachinhon/practical_nlp/blob/master/notebooks/4.3_english_to_tamil_fairseq.ipynb)
+
+- [translate 5 English news stories on Covid-19 (under 500 words) to Tamil](https://github.com/chuachinhon/practical_nlp/blob/master/notebooks/4.3_english_to_tamil_fairseq.ipynb)
+
+
+- [translate 5 Tamil speeches of varying lengths to English](https://github.com/chuachinhon/practical_nlp/blob/master/notebooks/4.4_tamil_to_english_fairseq.ipynb)
+
+- [translate 5 short Tamil news articles to English](https://github.com/chuachinhon/practical_nlp/blob/master/notebooks/4.4_tamil_to_english_fairseq.ipynb)
+
 
 Results from neural machine translation models are not (yet) as artful or precise as those by a skilled human translator. But they get 60% or more of the job done, in my view. Depending on your use case, that could be a huge time saver.
 
